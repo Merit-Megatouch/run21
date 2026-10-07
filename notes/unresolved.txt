@@ -5,5 +5,4 @@
 ExplodeTRoundGraphics() | run21.so
 t_i_l() | run21.so
 TextSystem::VPatch(char*, int, char const*, char const*, ...) | run21.so
-HighScoresManager::PlayerName(int) | run21.so
 USBIO::FoundUSB() | run21.so
