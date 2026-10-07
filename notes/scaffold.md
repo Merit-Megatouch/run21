@@ -5,9 +5,9 @@
 | GameId | G_RUN21 = 1 |
 | Code | /usr/local/lib/run21.so |
 | Engine family | legacy |
-| Assets | /usr/local/ion_only/games/run21 |
+| Assets | /usr/local/gamedata/gamegraphics/run21_new |
 | Window size | 640x480 — from declared legacy 640x480 |
 | Largest PNG | none |
-| Engine libraries beyond the shared SDK | libmerit_legacy.so  |
+| Engine libraries beyond the shared SDK | libmerit_legacy.so libsystem_info.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 53 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 10 unresolved symbol(s) (unresolved.txt) |
