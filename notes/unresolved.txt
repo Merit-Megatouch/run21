@@ -1,0 +1,57 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+CardG | run21.so
+LinkFanTimeSetting | run21.so
+LinkShowDeckSetting | run21.so
+LocalGameOverFlag | run21.so
+NetGlob | run21.so
+RankFunc | run21.so
+Card_PollLinks() | run21.so
+DisplayDefeated(int, int) | run21.so
+ScreenIsTouched() | run21.so
+Card_ActiveDelay(int) | run21.so
+Card_ProcessInfo() | run21.so
+Card_LinkWaitForAll(unsigned long) | run21.so
+ExplodeTRoundGraphics() | run21.so
+Card_ParseGameOverFlag() | run21.so
+t_i_l() | run21.so
+GetMyId() | run21.so
+u_m_m_s(char const*, char*, char*, unsigned int) | run21.so
+Delay_PE(unsigned long) | run21.so
+PlayWave(char*, unsigned short, int, int, int, bool) | run21.so
+QueFlush(bool) | run21.so
+GetMaster() | run21.so
+NetGlobals::GetLeaderScore() | run21.so
+NetGlobals::GetRank(unsigned char) | run21.so
+TextSystem::LoadTranslations(xml_gameinfo::GameIds) | run21.so
+TextSystem::VPatch(char*, int, char const*, char const*, ...) | run21.so
+VideoClass::ShowPCX(char const*, short, short, unsigned char) | run21.so
+WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | run21.so
+WorldClass::SetBack(short) | run21.so
+WorldClass::DeleteBmp(Bitmap*, unsigned char) | run21.so
+WorldClass::WorldClass() | run21.so
+db_gamedata::gamedata_record::gamedata_record(db_gamedata::gamedata_record const&) | run21.so
+db_gamedata::gamedata_record::gamedata_record() | run21.so
+db_gamedata::gamedata_record::~gamedata_record() | run21.so
+system_info::Get_Motherboard_Type() | run21.so
+HighScoresManager::PlayerName(int) | run21.so
+Books::Credits(xml_gameinfo::GameIds, enums::Span) | run21.so
+Books::Instance() | run21.so
+USBIO::FoundUSB() | run21.so
+Bitmap::ConvertSmack(unsigned char) | run21.so
+Bitmap::CopyFromScreen(int, int, bool) | run21.so
+Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | run21.so
+Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | run21.so
+Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | run21.so
+Bitmap::Crop(Bitmap*, unsigned char) | run21.so
+Bitmap::CData(int) | run21.so
+Bitmap::GreyBmp() | run21.so
+Bitmap::NextAnim() | run21.so
+Bitmap::setCData(unsigned short*) | run21.so
+TextUtils::ContainsArabic(char const*) | run21.so
+vtable for DOSLinuxWorld | run21.so
+clear_bitmap | run21.so
+gfx_driver | run21.so
+screen | run21.so
